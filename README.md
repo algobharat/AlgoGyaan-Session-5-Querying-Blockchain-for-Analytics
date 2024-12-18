@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Algorand Analytics Platform  
 
-## Getting Started
+A simple analytics platform built on **Next.js**, designed to provide insights and analysis on the Algorand blockchain. This platform includes features such as block exploration, transaction tracking, and asset analysis. Whether you're a developer or an enthusiast, this tool can help you navigate and understand the Algorand blockchain better.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. **Algorand Explorer**  
+   - Fetch and analyze block details by entering a block number.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. **Transaction and Asset Explorer**  
+   - Input a transaction ID to fetch and analyze transaction details.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. **Data Visualization**  
+   - Displays processed blockchain data in an easy-to-understand format.  
 
-## Learn More
+### 4. **API Integration**  
+   - Uses Algorand APIs to fetch and display real-time blockchain data.  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to Setup Locally  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites  
+- Node.js (v16 or higher)  
+- npm or yarn  
+- Algorand Node/Indexer API Key  
 
-## Deploy on Vercel
+### Steps  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the Repository**  
+   ```bash  
+   git clone https://github.com/algobharat/AlgoGyaan-Session-5-Querying-Blockchain-for-Analytics.git  
+   cd algorand-analytics  
+   ```  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Install Dependencies**  
+   ```bash  
+   npm install  
+   ```  
+   Or with Yarn:  
+   ```bash  
+   yarn  
+   ```  
+ 
+
+3. **Run the Development Server**  
+   ```bash  
+   npm run dev  
+   ```  
+   Or with Yarn:  
+   ```bash  
+   yarn dev  
+   ```  
+   Navigate to `http://localhost:3000` in your browser to view the application.  
+
+---
+
+## How It Works  
+
+1. **Algorand Explorer**  
+   - Enter a block number in the search bar to fetch details of a specific block from the Algorand blockchain.  
+   - Displays block transactions, proposer address, timestamp, and other key data.  
+
+2. **Transaction and Asset Explorer**  
+   - Enter a transaction ID to fetch details like sender, receiver, asset details, and transaction type.  
+   - Visualizes transaction flow for better analysis.  
+
+3. **API Usage**  
+   - The platform uses the Algorand Indexer API to retrieve blockchain data.  
+   - Handles data processing and displays results dynamically.  
+
+---
+
+## Contribution Guidelines  
+
+We welcome contributions! Here's how you can help:  
+- **Bug Reports:** Found a bug? Open an issue.  
+- **Feature Requests:** Have an idea? Let us know!  
+- **Pull Requests:** Feel free to add new features or fix bugs.  
+
+### Steps to Contribute  
+
+1. Fork the repository.  
+2. Create a new branch for your changes:  
+   ```bash  
+   git checkout -b feature-branch-name  
+   ```  
+3. Commit your changes:  
+   ```bash  
+   git commit -m "Add a brief description of your changes"  
+   ```  
+4. Push the branch and open a Pull Request.  
+
+---
+
+### Happy Exploring! 🚀  
